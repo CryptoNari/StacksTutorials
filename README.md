@@ -16,9 +16,54 @@ To install the required libraries use:
 npm install
 ```
 
-## Managing Accounts 
+## Stacks basics
 
-- Generating an account
-- Reviewing account info
-- Reviewing account history
-- Getting account balances
+### Managing Accounts 
+
+[x] Generating an account <br>
+[x] Reviewing account info <br>
+[x] Reviewing account history <br>
+[x] Getting account balances <br>
+
+### Sending Tokens
+
+[x] Specifying a sender key <br>
+[x] Generating a token transfer transaction <br>
+[x] Broadcasting the transaction to the network <br>
+[x] Checking transaction completion <br>
+[x] Confirming updates account balances (optional) <br>git status
+
+## Developing with Clarinet
+
+## Hello World
+
+[x] Create a new Clarinet project <br>
+[x] Add a new Clarity contract to the project <br>
+[x] Populate the contract with 2 types of functions <br>
+[x] Execute the functions in a local, simulated blockchain <br>
+[x] Optionally, deploy and test the contract on the testnet blockchain <br>
+
+## Counter
+
+[x] Create a new Clarinet project <br>
+[x] Add a new Clarity contract to the project <br> 
+[x] Populate the contract with a variable and read variable function <br>
+[x] Populate the contract with an increment and a decrement function <br>
+[x] Execute the functions in a local, simulated blockchain <br>
+[x] Optionally, deploy and test the contract on the testnet blockchain <br>
+
+## Billboard
+
+[x] Set up a development environment with Clarinet <br>
+[x] Define codes for error handling <br>
+[x] Add a data storage variable with functions to get and set the variable <br>
+[x] Add a STX transfer function within the variable setter <br>
+[x] Develop a unit test to verify the contract works as expected <br>
+
+## Non-fungible tokens
+
+[x] Create a new Clarinet project
+[x] Add contracts to the project, and set dependencies for those contracts
+[x] Define an NFT contract based on the SIP-009 standard
+[x] Verify the contract using Clarinet
+[x] Optionally, deploy and test the contract on the testnet blockchain
