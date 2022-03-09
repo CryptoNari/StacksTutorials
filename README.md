@@ -62,8 +62,8 @@ npm install
 
 ## Non-fungible tokens
 
-[x] Create a new Clarinet project
-[x] Add contracts to the project, and set dependencies for those contracts
-[x] Define an NFT contract based on the SIP-009 standard
-[x] Verify the contract using Clarinet
-[x] Optionally, deploy and test the contract on the testnet blockchain
+[x] Create a new Clarinet project <br>
+[x] Add contracts to the project, and set dependencies for those contracts <br>
+[x] Define an NFT contract based on the SIP-009 standard <br>
+[x] Verify the contract using Clarinet <br>
+[x] Optionally, deploy and test the contract on the testnet blockchain <br>
