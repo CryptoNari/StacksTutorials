@@ -1,0 +1,26 @@
+[project]
+name = "flightSurety"
+authors = []
+description = ""
+telemetry = true
+requirements = []
+[contracts.flightSuretyApp]
+path = "contracts/flightSuretyApp.clar"
+depends_on = ["flightSuretyData"]
+
+[contracts.flightSuretyData]
+path = "contracts/flightSuretyData.clar"
+depends_on = []
+
+[repl]
+costs_version = 2
+parser_version = 2
+
+[repl.analysis]
+passes = ["check_checker"]
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
